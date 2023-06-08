@@ -132,6 +132,7 @@ if($new_url != $url){
             <input type="submit" value="Blog" name="p" >
             <input type="submit" value="About" name="p" >
             <input type="submit" value="Contact" name="p" >
+            <input type="submit" value="AimDraw" name="p" >
         </form>
     </footer>
 
