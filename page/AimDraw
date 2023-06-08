@@ -1,0 +1,65 @@
+<div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+  <style>
+    canvas{
+      position:fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <button onclick="Start()">Start/Stop</button>
+  </div><script>
+  
+  // https://thecodingtrain.com/learning/ml5/1.3-object-detection.html
+  
+  
+  // let img;
+  let video;
+  let DISPLAY;
+  let detector;
+  let detections = [];
+  
+  function preload() {
+    // img = loadImage('dog_cat.jpg');
+    detector = ml5.objectDetector('cocossd');
+  }
+  
+  function gotDetections(error, results) {
+    if (error) {
+      console.error(error);
+    }
+    detections = results;
+    console.log(detections)
+    detector.detect(video, gotDetections);
+  }
+  
+  function setup() {
+    createCanvas(640, 480);
+    video = createCapture(video);
+
+    video.size(640, 480);
+    video.hide();
+    detector.detect(video, gotDetections);
+  }
+  
+  
+  function draw() {
+    image(video, 0, 0);
+  
+    for (let i = 0; i < detections.length; i++) {
+      let object = detections[i];
+      stroke(200, 255, 0);
+      strokeWeight(4);
+      noFill();
+      rect(object.x, object.y, object.width, object.height);
+      noStroke();
+      fill(255);
+      textSize(24);
+      text(object.label, object.x + 10, object.y + 24);
+    }
+  }
+  </script>
+  
