@@ -1,0 +1,8 @@
+<div style="background-image: url('https://via.placeholder.com/150');" class="v-avatar"></div>
+<div class="username">
+    <form action="http://localhost:9010/" method="post">
+        <input class="input_to_a" style="font-size:30px" type="submit" value="Login" name="p"></form>
+</div>
+<div class="data">
+  <span>您当前访问的身份是[游客]，登陆后享受更多权益</span>
+</div>

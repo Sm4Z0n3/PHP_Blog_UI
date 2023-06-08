@@ -1,0 +1,15 @@
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="BLOG,HACK,HACKED,CSGO,CS2,GAME,MINECRAFT,BTC,RMB,USDT,USD,DOGE,USSR,CN,US,UK,RUS,FREE,HTML,CSHARP,C#,CPP,CPLUS,PHP,GOLANG,GO,C,JAVA,JAVASCRIPT,WEB,UNIX,LINUX,KALI,WINDOWS,MAC,APPLE,Microsoft,VISUAL,STUDIO,VISUAL STUDIO,CODE,CODER">
+        <link rel="apple-touch-icon" href="assect/logot.png">
+		<link rel="icon" sizes="512x512" href="assect/logot.png">
+        <link rel="stylesheet" media="all" href="style/style" />
+        <link rel="stylesheet" media="all" href="style/loader" />
+        <link rel="stylesheet" media="all" href="style/ul" />
+        <link rel="stylesheet" media="all" href="style/user" />
+        <link rel="stylesheet" media="all" href="style/lor" />
+        <link rel="stylesheet" media="all" href="style/menu" />
+        <script src="script/loader"></script>
+        <script src="script/ul"></script>
+        <script src="script/swal"></script>

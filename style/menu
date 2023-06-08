@@ -1,0 +1,25 @@
+
+.menu{
+    width: 180px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    /* 默认隐藏 */
+    opacity: 0;
+}
+.menu li{
+    list-style-type: none;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+}

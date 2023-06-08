@@ -1,0 +1,7 @@
+<title>Blog</title>
+
+<form  action="/" method="post">
+    <input type="submit" value="CreatBlog" name="p">
+    <input type="submit" value="EasyBlog" name="p" >
+    <input type="submit" value="MyBlog" name="p" >
+</form>

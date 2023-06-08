@@ -1,0 +1,19 @@
+<title>Login</title>
+
+    <div class="login-wrapper">
+        <div class="header">Login</div>
+        <div class="form-wrapper">
+            <form action="./l.php" method="post">
+            <input type="text" maxlength="20" required name="usw" placeholder="username" class="input-item">
+            <input type="password" maxlength="20" required name="psw" placeholder="password" class="input-item">
+            <div class="btn">
+                <input type="submit" style="font-size: 25px;" value="Login" class="input_to_a">
+            </div>
+        </form>
+        </div>
+        <div class="msg">
+            <form class="aform" action="./" method="post">
+                Don't have account?
+                <input class="input_to_a" style="font-size:20px" type="submit" value="reg" name="p"></form>
+        </div>
+    </div>

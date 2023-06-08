@@ -1,0 +1,71 @@
+body{
+  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 85%;
+  width: 100%;
+  height: 15%;
+  background-color: rgba(251, 205, 255, 0.5);
+  z-index: -999;
+}
+header{
+  height: 110px;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(204, 193, 255, 0.5);
+  border: 1px white;
+  border-radius: 25px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999;
+}
+    .main {
+      padding: 10px;
+      margin-top: 20px;
+      display: none;
+      margin-left: 100px;
+      background-color: rgba(255, 255, 255, 0.6);
+      max-height: 760px;
+      min-height: 760px;
+      overflow-y: auto;
+      border-radius: 20px;
+    }
+    .input_to_a input{
+      border-style: none;
+      background-color: rgba(255, 255, 255, 0);
+      cursor: pointer;
+      font-size: 24px;
+      color: rgb(114, 114, 114);
+    }
+    .input_to_a{
+      border-style: none;
+      background-color: rgba(255, 255, 255, 0);
+      cursor: pointer;
+      font-size: 24px;
+      color: rgb(114, 114, 114);
+    }
+    .blog-post{
+      padding: 10px;
+      margin-left: 120px;
+      margin-top: 30px;
+      background-color: rgba(255, 255, 255, 0.644);
+      width: 86%;
+      height: 230px;
+    }    
+p{
+  color: rgb(114, 114, 114);
+}
+h1{
+  color: rgb(114, 114, 114);
+}
+h2{
+  color: rgb(114, 114, 114);
+}

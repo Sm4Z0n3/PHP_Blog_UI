@@ -1,0 +1,8 @@
+<div style="background-image: url('https://q1.qlogo.cn/g?b=qq&nk={QQ}&s=140');" class="v-avatar"></div>
+<div class="username">
+    {USERNAME}
+</div>
+<div class="data">
+  <span>{WELCOME}</span>
+  <span>Coin:{COINNUM}</span>
+</div>

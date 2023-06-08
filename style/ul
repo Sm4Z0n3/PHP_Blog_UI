@@ -1,0 +1,40 @@
+/* 侧边栏 */
+    #sidebar {
+      margin-left: -5px;
+      position: fixed;
+      top: 30%;
+      transform: translateY(-30%);
+      width: 80px;
+      height: 600px;
+      background-color:rgba(255, 255, 255, 0.623);
+      transition: width 0.5s ease-in-out;
+      border-radius: 0 20px 20px 0;
+    }
+
+    /* 锁定按钮 */
+    #lock {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      height: 36px;
+      text-decoration: none;
+      min-width: 60px;
+      width: auto;
+      border-style: none;
+      box-shadow: rgba(255, 255, 255, 0.623) 0 1px 7px;
+      border-radius: 20px;
+    }
+    .aform input{
+      margin-top: 0px;
+      margin-left: 175px;
+      height: 70px;
+      width: 160px;
+      border-style: none;
+      border-radius: 0 0 20px 20px;
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0.26);
+    }
+    .aform input:hover{
+      height: 110px;
+      border-radius: 20px;
+    }

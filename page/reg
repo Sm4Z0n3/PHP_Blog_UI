@@ -1,0 +1,18 @@
+<title>Sign Up</title>
+    <div class="login-wrapper">
+        <div class="header">Sign Up</div>
+        <div class="form-wrapper">
+        <form action="./r.php" method="post">
+            <input type="text" maxlength="20" required name="usw" placeholder="username" class="input-item">
+            <input type="password" maxlength="20" required name="psw" placeholder="password" class="input-item">
+            <input type="text" maxlength="10" required name="qq" placeholder="qq" class="input-item">
+            <a style="font-size: 20px;" onclick="swal('因为我是懒狗 懒得写头像上传之类的麻烦东西 又没人给我钱 写自己QQ号同步QQ头像')" href="#">Why need QQ?</a>
+            <div class="btn"><input type="submit" style="font-size: 25px;" value="Sign Up" class="input_to_a"></div>
+            </form>
+        </div>
+        <div class="msg">
+            <form action="./" method="post">
+            Have account?
+                <input class="input_to_a" style="font-size:20px" type="submit" value="login" name="p"></form>
+        </div>
+    </div>

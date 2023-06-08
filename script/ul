@@ -1,0 +1,15 @@
+var locked = false;
+
+function expand() {
+  if (!locked) {
+    document.getElementById("sidebar").style.width = "400px";
+  }
+}
+
+function collapse() {
+  if (!locked) {
+    document.getElementById("sidebar").style.width = "80px";
+  }
+}
+
+

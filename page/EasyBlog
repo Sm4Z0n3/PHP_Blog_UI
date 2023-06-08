@@ -1,0 +1,44 @@
+<h2>Easy CreatBlog(Support HTML)</h2>
+<style>
+.ctinput{
+    width: 90%;
+    margin-left: 70px;
+    min-height: 45px;
+    padding: 8px;
+    border-style:none;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 20px;
+      font-size: 26px;
+}
+.ctinput1{
+    margin-top: 20px;
+    width: 90%;
+    height: 90px;
+    margin-left: 70px;
+    min-height: 460px;
+    min-width: 200px;
+    padding: 8px;
+    border-style:none;
+      background-color: rgba(255, 255, 255, 0.6);
+      overflow-y: auto;
+      border-radius: 20px;
+      font-size: 18px;
+}
+.cbinput{
+    margin-top: 20px;
+      margin-left: 43%;
+      height: 45px;
+      width: 160px;
+      border-style: none;
+      border-radius: 20px;
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+}
+</style>
+<div class="CBlog">
+    <form action="pblog.php" method="post">
+        <input class="ctinput" type="text" name="title" required>
+        <textarea class="ctinput1" type="text" name="body" required></textarea>
+        <input class="cbinput" type="submit" value="POST Blog">
+    </form>
+</div>
